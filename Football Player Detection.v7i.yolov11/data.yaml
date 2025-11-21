@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['ball', 'five_hash', 'hash', 'marker', 'number', 'player', 'pylon', 'ref']
+
+roboflow:
+  workspace: vayvay
+  project: football-player-detection-xdjq7
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vayvay/football-player-detection-xdjq7/dataset/7
