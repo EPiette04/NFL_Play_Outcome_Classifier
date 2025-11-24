@@ -2,4 +2,29 @@
 nfl-player-contact-detection.zip
 /Football Players.v15i.yolov11
 /.vscode
-/data/more number labeling data
+data/*
+!data/.gitkeep
+annotated_videos/*
+!annotated_videos/.gitkeep
+*.mp4
+Football Players.v15i.yolov11/
+# Jupyter noise
+.ipynb_checkpoints/
+
+# VSCode and OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python envs
+venv/
+.env/
+.venv/
+
+annotated_videos/
+*.mp4
+video_tracking.ipynb
+.ipynb_checkpoints/
+
+..bfg-report/
+video_tracking.ipynb
